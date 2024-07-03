@@ -1,0 +1,329 @@
+chapter2background {
+    background-color: red;
+    /* background-image: */
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round;
+    /* background-size */
+    background-size: cover;
+    background-size: contain;
+    background-size: auto;
+    background-size: 666px;
+    background-size: 666px 456px;
+    /* background-position */
+    background-position: top;
+    background-position: left;
+    background-position: center;
+    background-position: bottom 50px right 30px;
+    background-position: bottom 50% right 30%;
+    background-position: top center;
+    /* background-attachment */
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-attachment: local;
+    background-attachment: local, scroll;
+
+    /*---- background shorthand-------*/
+    background: red url(1.png) no-repeat fixed right top;
+}
+
+
+chapter3 {
+    /* margin:border:padding:content:padding:border:margin */
+    margin: 2px;
+    margin-top: 2px;
+    padding: 2px;
+    padding-left: 2px;
+    /* border */
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border: 2px solid red;
+    border-radius: 7px;
+    /* box-sizing:content-box include: (h+w+content) only // by default ye lga rahta hai */
+    box-sizing: content-box;
+    /* box-sizing:border-box include: (h+w+content+padding+border) only */
+    box-sizing: border-box;
+}
+
+chapter4 {
+    /* height/width/top-bottom/margin-padding :-not allow */
+    display: inline;
+    /* total/allow */
+    display: inline-block;
+    display: none;
+    visibility: hidden;
+    /* iske kise bhi parents per laga doge to sabhi child per lag jayga */
+    text-align: center;
+    text-align: left;
+    text-align: left center;
+
+    text-decoration: dotted;
+    text-decoration: overline red;
+    text-decoration: underline;
+    text-decoration: underline overline #ff3028;
+
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+
+    line-height: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5px;
+    font-size: 50%;
+    font-weight: bold;
+    font-weight: 100;
+    font-style: italic;
+    font-style: oblique;
+    font-style: oblique 40deg;
+    /* skip font-variant: normal; */
+    font-variant: normal;
+}
+
+chapter5 {
+    font-size: 4px;
+    /* najdeki parent ka 4px X 4 = 16px */
+    font-size: 4em;
+    /* html font ka 4px X 4 = 16px */
+    font-size: 4rem;
+    /* display ka 50vw total  weight  ka 50% */
+    width: 50vw;
+    width: 50vh;
+    /* display ka 50vw total  height  ka 50% */
+    height: 50vh;
+    height: 50vw;
+    /* % parent element ka 50% */
+    width: 50%;
+    height: 50%;
+    /* is se kam ya jada nahi hoga */
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 50Vh;
+    max-height: 50Vh;
+
+    /* position property */
+    /* left/rght/top/bottom is not valid in static and no use this */
+    position: static;
+    /* left/rght/top/bottom is valid in relative or
+      najdeke  parent ke relative kam kerne lagta hai 
+      use for like and share   */
+    position: relative;
+    /* absolute me left/rght/top/bottom html parent ke relative
+      kam kerne lagta hai  */
+    position: absolute;
+    /* browser window ke relative
+    use for chat // jis pe laga doge wo fir nahi hilaga*/
+    position: fixed;
+    /* tanga rah jayga
+    use for header */
+    position: sticky;
+
+    /* is se ye uper dikhaga */
+    z-index: 1;
+
+    list-style: square;
+    list-style: circle;
+    list-style: decimal;
+    list-style: circle inside url(image.png);
+    list-style: circle outside url(image.png);
+}
+
+chapter6 {
+    float: left;
+    float: right;
+    float: inline-start;
+    clear: right;
+    clear: left;
+    clear: both;
+
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    /* flex container pe lagu hota hai */
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    /* horizontal center */
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: flex-end;
+    justify-self: start;
+    /* vertical center */
+    align-items: center;
+    align-items: flex-end;
+    align-self: start;
+    /* without space center (niche jane per space nahi iyaga */
+    align-content: center;
+
+    /* flex items pe lagu hota hai */
+    order: 4;
+    order: -1;
+    align-self: flex-end;
+    /* size ko bada ker deta hai */
+    flex-grow: 1;
+
+    /* use it abhi avoid kere */
+    /* flex-shrink: initial;
+    flex-shrink: 1;
+    flex-shrink: 0.6;
+    flex-shrink: 2; */
+
+}
+
+chapter7 {
+    display: grid;
+    display: inline-grid;
+    grid-row-gap: 9px;
+    grid-column-gap: 9px;
+    grid-gap: 2px 9px;
+    grid-gap: 9px;
+
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 33px 333px auto;
+    grid-template-rows: 33px 333px auto;
+
+    grid-column: 1/3;
+    grid-row: 1/3;
+    grid-row: 1/span 3;
+    grid-row: 2/span 2;
+
+    /* media queries */
+    @media screen and (max-width: 800px) {
+        body {
+            background-color: brown;
+        }
+
+        container {
+            background-color: yellow;
+        }
+    }
+}
+
+
+chapter8 {
+    transform: translate(43px);
+    transform: translate(43px 34px);
+    transform: translate(43px 34px) rotate(90deg);
+    transform: translate(43px 34px) rotate(.5turn);
+    transform-origin: center;
+    transform-origin: 0;
+    /* ye center se rotate ho raha hai */
+    transform: rotate(0.25turn);
+    transform: rotate(0.50turn);
+    transform: rotate(45deg);
+    /* ye start se rotate ho raha hai */
+    transform: rotate(0);
+    /* letter ya box bada ho jayga */
+    transform: scale(4, 7);
+    transform: scaleX(8);
+    transform: scaleY(8);
+    /* pura dabba jhuk jayga */
+    transform-origin: 0;
+    transform: skew(10deg, 8deg);
+    transform: (10deg);
+    transform: skewY(10deg);
+    /* short hand property  ki tarha method hai*/
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    transform: matrix(a, b, c, d, e, f);
+    transform: matrix(scaleX(a), skewY(b), skewX(c), scaleY(d), translateX(e), translateY(f));
+
+    /* css 3D transform method */
+    transform: rotateX('angle');
+    transform: rotateY('angle');
+    /* extra */
+    transform: rotateZ('angle');
+
+    /* transition property */
+    hover extra {
+        img {
+            width: 56px;
+            height: 50px;
+            transition-property: width height;
+            transition-duration: 1s;
+            transition-timing-function: ease;
+            /* transition-duration: .1s;
+        transition-timing-function: step-end; */
+
+            /* short hand */
+            /* transition: width 2s ease-in .1s; */
+        }
+
+        /* hover ka matlab mouse le jana */
+        img:hover {
+            width: 455px;
+            height: 400px;
+        }
+
+
+        /* 2 this is initial or detail in index.css and html */
+        img {
+            width: 455px;
+            transition-property: width;
+            transition-property: height;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 0s;
+            /* short hand */
+            transition: width 2s ease-in .1s;
+        }
+
+        /* this is final timing  */
+        img:hover {
+            width: 56px;
+        }
+    }
+
+    transition-timing-function: ease-in-out;
+
+    /* animation */
+    .div {
+        /* animation-name: widthAnimation;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-timing-function: ease;
+        animation-delay: 1s;
+        animation-iteration-count: 3;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-direction: alternate-reverse; */
+        /* shorthand property */
+        animation: widthAnimation 3s ease-in-out 1s 3 alternate;
+        animation: widthAnimation2 3s ease-in-out 1s 3 alternate;
+    }
+
+    @keyframes widthAnimation {
+        from {
+            width: 300px;
+            height: 300px;
+        }
+
+        to {
+            width: 600px;
+            height: 600px;
+        }
+    }
+
+    @keyframes widthAnimation2 {
+        0% {
+            width: 30vw;
+            height: 30vh;
+        }
+
+        50% {
+            width: 60vw;
+            height: 60vh;
+        }
+
+        100% {
+            width: 100vw;
+            height: 100vh;
+        }
+    }
+}
