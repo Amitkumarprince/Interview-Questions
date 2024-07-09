@@ -56,10 +56,9 @@
 /////////////////////// 2 /////////////////////
 // If/else  :- If/else statements are conditional statements that are used to perform different actions based upon different conditions.
 
+// ternary operator :-  A ternary operator can be used to replace an if..else statement in certain situations.
 // let a = prompt("enter")
 // console.log("you can", a<18? "not drink" : "drink")
-
-// ternary operator :-  A ternary operator can be used to replace an if..else statement in certain situations.
 
 // 1.Q  How does the ternary operator work in JavaScript?
 // ternary operator takes three operands; a logical condition, a value to return if true, and a value to return if false
@@ -68,7 +67,7 @@
 /////////////////////// 3 /////////////////////
 // 1. What is a Loop in JavaScript?
 // loop is a programming tool that is used to repeat a set of instructions. 
-// such as for, while, and do...while loops
+// such as for loop, while loop, and do...while loop
 
 // for loop:- for loop is a programming tool that is 
 //  Used when you know the number of times you want to execute the loop.
@@ -93,8 +92,8 @@
 // }
 
 // Q:-11 for, for...in, forEach in JS?
-// for loops iterate over indices, for...in loops over object properties, forEach iterates over array elements.
-
+// for loops iterate over indices, for...in loops iterates over object properties, forEach iterates over array elements.
+//                     (अनेक) घातांक
 
 /*
 Functions :- Functions in JavaScript are reusable blocks of code that perform a specific task. They are essential for organizing code, promoting reusability logic.
