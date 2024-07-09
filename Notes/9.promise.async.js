@@ -5,9 +5,12 @@
 //callback :- A JavaScript callback is a function which is to be executed after another function has finished execution.
 // Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.
 
+// Callback hell :- Callback hell in JavaScript occurs when multiple callbacks are nested within a function, creating a complex and hard-to-maintain code structure that resembles a pyramid,
+
 // loadScript :- dynamically load as many JavaScript files as necessary on a page, but make sure you consider the order in which files must be loaded.
 
 // Promises :- JavaScript Promises used to simplify managing multiple asynchronous operations, preventing callback hell and unmanageable code.
+
 
 // then :- The then() method provides two callbacks: One funtion to run when a promise is fulfilled and one funtion to run when a promise is rejected.
 

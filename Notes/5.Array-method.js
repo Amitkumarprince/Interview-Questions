@@ -14,6 +14,7 @@
 // let r = num.pop() // pop returns the popped elements (last remove element)
 // console.log(r)
 
+// push :- adds the specified elements to the end of an array and returns the new length of the array.
 // num.push(56)
 // let r = num.push(56) //(56 add ker ke length dega) push return the new array length
 // console.log(r) // ye length return kerta hai
@@ -49,7 +50,7 @@
 // console.log(num,num1, newArray)
 
 
-// // Sort method // modify original array(in alphabitically)
+// // // Sort method // modify original array(in alphabitically)
 // let num = [551, 22, 3, 14, 5, 6, 7, 8, 229] // ise string man ke kerta hai
 // num.sort()  // 14, 22, 229,3, 5, 551, 6, 7, 8 // arrange alphabitically
 // console.log(num)
@@ -60,7 +61,8 @@
 //   num.sort(compare)
 //   console.log(num)
 
-
+// compare :- When the sort() function compares two values, it sends the values to the compare function, and sorts the values according to the returned (negative, zero, positive) value.
+//  If the result is negative, a is sorted before b . If the result is positive, b is sorted before a .
 // let compare1 = (a, b)=>{
 //   return b - a
 // } // desending order //  sort ka hi function hai
@@ -84,10 +86,16 @@
 
 // create new array// slice not modify orijinal array
 let num = [551, 22, 3, 14, 5, 6, 7, 8, 229]
-let newNum = num.slice(3) // create new array
-// // // let newNum = num.slice(3, 5) // 5 not included
-// // let newNum = num.slice(3, 4)  //4 not included
-console.log(newNum)
+// let newNum = num.slice(3) // create new array
+// let newNum = num.slice(3, 5) // 5 not included
+// let newNum = num.slice(3, 4)  //4 not included
+
+// let newNum = num.slice(0, num.length-1)  //4 not included
+// console.log(newNum)
+// let n = newNum.slice(0, newNum.length -1)
+// console.log(n)
+// let m = newNum.slice(0, n.length -1)
+// console.log(m)
 
 // //////// 19 // /////
 // let num = [3, 5, 1, 2, 4] //Array

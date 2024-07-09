@@ -43,6 +43,7 @@
 //     console.log(b)
 // }
 
+
 // /////////////// 11 //////////////
 //  Functions in JavaScript are reusable blocks of code that perform a specific task. They are essential for organizing code, promoting reusability, and encapsulating(एनकैप्सुलेटिंग) logic.
 
@@ -64,3 +65,5 @@
 //     console.log('Hello!');
 // };
 // greet(); // Output: Hello!
+
+// Template Literal :- Template Literal in ES6 provides new features to create a string that gives more control over dynamic strings.

@@ -9,6 +9,9 @@
 // html :- html is the standard markup language for creating web pages. HTML describe the structure of a web pages.
 // HTML consists of a series of elements. HTML elements tell the browser how to display the content
 
+// what are the type of datatype in js
+// The primitive data types in JavaScript include string, number, boolean, undefined, null, and symbol. 
+// The non-primitive data type includes the object. 
 
 // variable = a variable is a container that stores a value.
 

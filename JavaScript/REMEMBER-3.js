@@ -1,15 +1,19 @@
 
 /////////////////////// 8 /////////////////////
-// setTimeout :- the setTimeout() function is used to introduce a delay or to execute a particular function after a specified amount of time has passed.
+// setTimeout :- the setTimeout() function is used to introduce a delay or to execute a particular function after a specified amount of time has passed. 
+// सेटटाइमआउट() फ़ंक्शन का उपयोग विलंब शुरू करने या एक निर्दिष्ट समय बीत जाने के बाद किसी विशेष फ़ंक्शन को निष्पादित करने के लिए किया जाता है।
 
 // setInterval :- The setInterval() method calls a function at specified intervals (in milliseconds). It continues calling the function until clearInterval() is called or the window is closed. 
 
 // This method is useful for tasks that need periodic execution, like updating animations or refreshing data.
+// यह विधि उन कार्यों के लिए उपयोगी है जिन्हें समय-समय पर निष्पादन की आवश्यकता होती है, जैसे एनिमेशन अपडेट करना या डेटा ताज़ा करना।
 
 
 // onclick :- The onclick function is an event handler in JavaScript that is used to respond to a specific event a mouse click on a particular HTML element. This event can be triggered when a user clicks on a button, a link, an image, or virtually any other clickable element on a web page.
+// इस घटना को ट्रिगर किया जा सकता है/ जब कोई उपयोगकर्ता किसी वेब पेज पर किसी बटन, लिंक, छवि या वस्तुतः किसी अन्य क्लिक करने योग्य तत्व पर क्लिक करता है।
+// यह ईवेंट तब ट्रिगर हो सकता है जब कोई उपयोगकर्ता किसी वेब पेज पर किसी बटन, लिंक, छवि या वस्तुतः किसी अन्य 'क्लिक करने योग्य' तत्व पर क्लिक करता है।
 
-// The addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target. 
+// addEventListener :- The addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target. 
 // This method allows multiple event handlers on an element, enabling dynamic and flexible interaction management within web applications.
 
 // btn.addEventListener('click', function(e){ // ye har bar click hone pe chalega
@@ -33,8 +37,10 @@
 
 // asynchronous programing :- One approach to asynchronous programming is to make functions that need to wait for something take an extra argument, a callback function. The asynchronous function starts a process, sets things up so that the callback function is called when the process finishes, and then returns.
 
-//callback :- A JavaScript callback is a function which is to be executed after another function has finished execution.
-// Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.
+//callback :- A function passed as an argument to another function, to be executed after the first function completes.
+
+
+// Callback hell :- Callback hell in JavaScript occurs when multiple callbacks are nested within a function, creating a complex and hard-to-maintain code structure that resembles a pyramid,
 
 // loadScript :- dynamically load as many JavaScript files as necessary on a page, but make sure you consider the order in which files must be loaded.
 
@@ -44,11 +50,11 @@
 
 // catch :- The catch() method of Promise instances schedules a function to be called when the promise is rejected
 
-// Async and Await :- Async and Await in JavaScript are powerful keywords used to handle asynchronous operations with promises.
+
+// Q:-14 Async & Await in JS?
+// Async and Await in JavaScript are powerful keywords used to handle asynchronous operations with promises.
 
 // async :- The async function allows us to write promise-based code as if it were synchronous.
-
-// async :- Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished. Once that task has finished, your program is presented with the result.
 
 // try catch :- it is used to handle the error-prone part of the code.
 
