@@ -4,17 +4,17 @@
 // सेटटाइमआउट() फ़ंक्शन का उपयोग विलंब शुरू करने या एक निर्दिष्ट समय बीत जाने के बाद किसी विशेष फ़ंक्शन को निष्पादित करने के लिए किया जाता है।
 
 // setInterval :- The setInterval() method calls a function at specified intervals (in milliseconds). It continues calling the function until clearInterval() is called or the window is closed. 
+// सेटइंटरवल() विधि निर्दिष्ट अंतराल पर एक फ़ंक्शन को कॉल करती है
 
 // This method is useful for tasks that need periodic execution, like updating animations or refreshing data.
 // यह विधि उन कार्यों के लिए उपयोगी है जिन्हें समय-समय पर निष्पादन की आवश्यकता होती है, जैसे एनिमेशन अपडेट करना या डेटा ताज़ा करना।
 
 
-// onclick :- The onclick function is an event handler in JavaScript that is used to respond to a specific event a mouse click on a particular HTML element. This event can be triggered when a user clicks on a button, a link, an image, or virtually any other clickable element on a web page.
+// onclick :- The onclick function is an event handler in JavaScript that is used to respond to a specific event, a mouse click on a particular HTML element. 
 // इस घटना को ट्रिगर किया जा सकता है/ जब कोई उपयोगकर्ता किसी वेब पेज पर किसी बटन, लिंक, छवि या वस्तुतः किसी अन्य क्लिक करने योग्य तत्व पर क्लिक करता है।
-// यह ईवेंट तब ट्रिगर हो सकता है जब कोई उपयोगकर्ता किसी वेब पेज पर किसी बटन, लिंक, छवि या वस्तुतः किसी अन्य 'क्लिक करने योग्य' तत्व पर क्लिक करता है।
+// This event can be triggered when a user clicks on a button, a link, an image, or virtually any other clickable element on a web page.
 
-// addEventListener :- The addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target. 
-// This method allows multiple event handlers on an element, enabling dynamic and flexible interaction management within web applications.
+// addEventListener :- The addEventListener() method is used to attach an event handler to a particular element.  
 
 // btn.addEventListener('click', function(e){ // ye har bar click hone pe chalega
 //   console.log("Hello")
@@ -33,16 +33,20 @@
 //   btn.addEventListener('click', x)
 
 ////////////////// 9 ////////////////////
-// Synscronaus programing :- As the name suggests synchronous means to be in a sequence, i.e. every statement of the code gets executed one by one. So, basically a statement has to wait for the earlier statement to get executed
+// Synscronaus programing :- Synchronous in Javascript refers to the execution of a program code in a blocking manner. 
 
-// asynchronous programing :- One approach to asynchronous programming is to make functions that need to wait for something take an extra argument, a callback function. The asynchronous function starts a process, sets things up so that the callback function is called when the process finishes, and then returns.
+// asynchronous programing :- Asynchronous in JavaScript refers to the execution of code in a non-blocking manner.
 
 //callback :- A function passed as an argument to another function, to be executed after the first function completes.
 
+//                  जावास्क्रिप्ट में कॉलबैक नरक होता है     // जब एक फ़ंक्शन के भीतर एकाधिक कॉलबैक नेस्ट किए जाते हैं
+// Callback hell :- Callback hell in JavaScript occurs when multiple callbacks are nested within a function,             creating a complex and hard-to-maintain code structure that resembles a pyramid,
+// एक जटिल और कठिन-से-रखरखाव कोड संरचना बनाना   जो एक पिरामिड जैसा दिखता है,
 
-// Callback hell :- Callback hell in JavaScript occurs when multiple callbacks are nested within a function, creating a complex and hard-to-maintain code structure that resembles a pyramid,
-
+//              एक पृष्ठ पर जितनी आवश्यक हो उतनी जावास्क्रिप्ट फ़ाइलें गतिशील रूप से लोड करें,
 // loadScript :- dynamically load as many JavaScript files as necessary on a page, but make sure you consider the order in which files must be loaded.
+// सुनिश्चित करें कि आप उस क्रम पर विचार करें जिसमें फ़ाइलें लोड की जानी चाहिए।
+
 
 // Promises :- JavaScript Promises used to simplify managing multiple asynchronous operations, preventing callback hell and unmanageable code.
 

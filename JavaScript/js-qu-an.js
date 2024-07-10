@@ -5,7 +5,7 @@
 // Q:-3 Virtual DOM?
 // A lightweight copy of the DOM used to optimize updates and improve performance in frameworks like React.
 
-// Q:-4 Browser Object Model?
+// Q:-4 Browser Object Model (BOM)?
 // Represents browser window components and allows interaction with the browser (e.g., window, navigator).
 
 // Q:-5 HTML element to JS access?
@@ -27,8 +27,6 @@
 // Template literals, also known as template strings, are a feature in JavaScript that allow for easier string interpolation and multi-line strings. They are denoted by backticks (`) instead of single or double quotes.
 
 // hasing
-
-
 
 
 

@@ -8,7 +8,7 @@
 // HTML consists of a series of elements. HTML elements tell the browser how to display the content.
 
 // what are the type of datatype in javaScript?
-// The primitive data types in JavaScript include string, number, boolean, undefined, null, and symbol. 
+// The primitive data types in JavaScript include string, number, boolean, undefined, null, bigint and symbol. 
 // The non-primitive data type includes the object. 
 
 // variable = a variable is a container that stores a value.
@@ -23,7 +23,7 @@
 // let and const are block-scoped, while var is function-scoped. const defines constants
 
 // What is the difference between null and undefined?
-// null is an assigned value. It means nothing. 
+// null is an assigned value. It means nothing.
 // undefined means a variable has been declared but not defined yet.
 
 /*
@@ -92,7 +92,7 @@
 // }
 
 // Q:-11 for, for...in, forEach in JS?
-// for loops iterate over indices, for...in loops iterates over object properties, forEach iterates over array elements.
+// for loops iterate over indi'ces, for...in loops iterates over object properties, forEach iterates over array elements.
 //                     (अनेक) घातांक
 
 /*

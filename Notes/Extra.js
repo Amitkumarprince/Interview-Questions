@@ -8,6 +8,9 @@ d = 98
 // ${template literal} `` - back tick
 // : - Colon (कॉलन)
 
+// I have skills in HTML, CSS, JavaScript, Git, GitHub, and Figma."
+// I am currently learning a new skill: React.
+
 
 
 // generator function :- A generator is a special kind of function that produces a sequence of values and can pause/resume execution,
