@@ -91,6 +91,8 @@
 //     console.log(b)
 // }
 
+// forEach :- The forEach method allows you to iterate over an array and per'form an operation on each element of the array.
+
 // Q:-11 for, for...in, forEach in JS?
 // for loops iterate over indi'ces, for...in loops iterates over object properties, forEach iterates over array elements.
 //                     (अनेक) घातांक
