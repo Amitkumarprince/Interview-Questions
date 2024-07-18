@@ -5,7 +5,7 @@
 // push :- the push method adds elements to the end of an array and returns the new length of the array.
 
 
-// shift :- the shift method removes the first item of an array and returns that value to the caller.
+// shift :- the shift method removes the first elements of an array and returns that value to the caller.
 // The shift() method changes the original array.
 
 // unshift :- the unshift method adds new elements to the beginning of an array  and returns the new length of the array.

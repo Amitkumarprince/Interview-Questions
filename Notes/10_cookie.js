@@ -3,6 +3,8 @@
 // encodeURIComponent :- The encodeURIComponent() method encodes special characters including: , / ? : @ & = + $ #
 
 // decodeURIComponent :- It decodes all escape sequences, including those that are not created by encodeURIComponent , like -.! ~*'() .
+// What is the decode URL function in JavaScript?
+// The decodeURI() function decodes a Uniform Resource Identifier (URI) previously created by encodeURI() or a similar routine.
 
 // localStorage :- localStorage in JavaScript allows web applications to store data locally within the user's browser – with no expiration date. The data isn't deleted when the browser is closed, and is available when the browser is opened again.
 

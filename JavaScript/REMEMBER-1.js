@@ -69,14 +69,11 @@
 // loop is a programming tool that is used to repeat a set of instructions. 
 // such as for loop, while loop, and do...while loop
 
-// for loop:- for loop is a programming tool that is 
-//  Used when you know the number of times you want to execute the loop.
+// for loop:- Used when you know the number of times you want to execute the loop.
 
-// while loop:- while loop is a programming tool that is 
-// Used when you don't know the number of times you want to execute the loop.
+// while loop:- Used when you don't know the number of times you want to execute the loop.
 
-// do...while loop:- do...while loop is a programming tool that is 
-// Similar to while loop but guarantees at least one time execute the loop.
+// do...while loop:- Similar to while loop but guarantees at least one time execute the loop.
 
 // for in loop :- iterates over the enumerable properties of an object, allowing you to access each property name (key) sequentially.
 // for (let a in obj) {

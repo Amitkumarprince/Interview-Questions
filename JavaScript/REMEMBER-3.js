@@ -24,7 +24,7 @@
 // then :- The then() method provides two callbacks: One funtion to run when a promise is fulfilled and one funtion to run when a promise is rejected.
 
 // catch :- The catch() method of Promise instances schedules a function to be called when the promise is rejected
-                                        //जब वादा अस्वीकार कर दिया जाता है तो इंस्टेंस एक फ़ंक्शन को कॉल करने के लिए शेड्यूल करता है
+                                       
 
 // Q:-14 Async & Await in JS?
 // Async and Await in JavaScript are powerful keywords used to handle asynchronous operations with promises.
@@ -35,5 +35,5 @@
 
 // try catch :- it is used to handle the error part of the code.
 
-// finally :- The finally() method is used to return a Promise, when a promise is settled, Like then() and catch(), that is either fulfilled or rejected.
-//            वादे करने के लिए finally() विधि का उपयोग किया जाता है, जब कोई वादा तय हो जाता है, then() and catch(), जिसे या तो पूरा किया जाता है या अस्वीकार कर दिया जाता है।
+// finally :- finally() method is called when the Promise is settled (either resolved or rejected).
+//            जब वादा पूरा हो जाता है तो अंततः() विधि को कॉल किया जाता है     (या तो समाधान किया गया या अस्वीकृत)
