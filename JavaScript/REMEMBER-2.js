@@ -4,7 +4,6 @@
 
 // push :- the push method adds elements to the end of an array and returns the new length of the array.
 
-
 // shift :- the shift method removes the first elements of an array and returns that value to the caller.
 // The shift() method changes the original array.
 
@@ -16,6 +15,7 @@
 // concat :- the concat method allows you to merge multiple arrays at once.  
 
 // Sort :- the Sort method compares the elements of the array by converting them into strings and then comparing their Unicode code points.
+
 // compare :- When the sort() function compares two values, it sends the values to the compare function, and sorts the values according to the returned (negative, zero, positive) value.
 //  If the result is negative, a is sorted before b . If the result is positive, b is sorted before a .
 

@@ -29,10 +29,6 @@
 // hasing
 
 
-
-
-
-
 // Q:-18 Palindrome string in JS?
 // A string that reads the same forwards and backwards. Check using string reversal and comparison.
 
